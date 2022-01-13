@@ -8,22 +8,28 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header>
-        <h1>
-            Hotel Management
-        </h1>
-    </header>
     <main>
         <section class="hotel-management-section">
             <div class="hotel-management-wrapper">
                 <form>
-                    <label for="location"></label>
-                    <input id="location" type="text">
-                    <label for="check-in"></label>
-                    <input id="check-in" type="date">
-                    <label for="check-out"></label>
-                    <input id="check-out" type="datetime">
-                    <label for="people"></label>
+                    <label for="location">Location</label>
+                    <input id="location" placeholder="location" type="text">
+                    <label for="check-in">Check in</label>
+                    <input id="check-in" placeholder="check in" type="date">
+                    <label for="check-out">Check out</label>
+                    <input id="check-out" type="date">
+                    <label for="people">People</label>
+                    <select id="people">
+                        <option value="1">
+                            rooms: 1, adults: 2, children: 0
+                        </option>
+                        <option value="2">
+                            rooms: 1, adults: 2, children: 1
+                        </option>
+                        <option value="3">
+                            custom
+                        </option>
+                    </select>
                 </form>
             </div>
         </section>
