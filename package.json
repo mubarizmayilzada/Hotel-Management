@@ -1,0 +1,22 @@
+{
+  "name": "hotel-management",
+  "version": "1.0.0",
+  "description": "landing page for hotel-management",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/main.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubarizmayilzade/Hotel-Management.git"
+  },
+  "author": "Marz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubarizmayilzade/Hotel-Management/issues"
+  },
+  "homepage": "https://github.com/mubarizmayilzade/Hotel-Management#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

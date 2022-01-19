@@ -5,34 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Management - Artmood</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <main>
-        <section class="hotel-management-section">
-            <div class="hotel-management-wrapper">
-                <form>
-                    <label for="location">Location</label>
-                    <input id="location" placeholder="location" type="text">
-                    <label for="check-in">Check in</label>
-                    <input id="check-in" placeholder="check in" type="date">
-                    <label for="check-out">Check out</label>
-                    <input id="check-out" type="date">
-                    <label for="people">People</label>
+        <section class="main-section">
+            <form>
+                <div class="location-div">
+                    <label for="location">Location:</label>
+                    <input id="location" type="search" placeholder="Search">
+                </div>
+                <div class="check-div">
+                    <div class="check-in-div">
+                        <label for="checkin">Check In:</label>
+                        <input type="date" id="checkin">
+                    </div>
+                    <div class="check-out-div">
+                        <label for="checkout">Check Out:</label>
+                        <input type="date" id="checkout">
+                    </div>
+                </div>
+                <div class="people-div">
+                    <label for="people">People:</label>
                     <select id="people">
+                        <option disabled hidden selected>
+                            Select
+                        </option>
                         <option value="1">
-                            rooms: 1, adults: 2, children: 0
+                            rooms: 1, adults: 1, children: 0 / 50
                         </option>
                         <option value="2">
-                            rooms: 1, adults: 2, children: 1
+                            rooms: 1, adults: 2, children: 0 / 100
+                        </option>
+                        <option value="3">Custom</option>
+                    </select>
+
+                    <div class="custom-select hide">
+                        <div class="custom-select-wrapper">
+                            <div class="custom-select-room">
+                                <label for="custom-room">Room:</label>
+                                <input type="number" min="1" id="custom-room" placeholder="1">
+                            </div>
+                            <div class="custom-select-adult">
+                                <label for="custom-adult">Adult:</label>
+                                <input type="number" min="1" id="custom-adult" placeholder="1">
+                            </div>
+                        </div>
+                        <div class="custom-select-child">
+                            <label for="custom-child">Child:</label>
+                            <input type="number" min="0" id="custom-child" placeholder="1">
+                            <label for="custom-child-age">How many child under 6 age:</label>
+                            <input type="number" min="0" id="custom-child-age" placeholder="1">
+                        </div>
+                    </div>
+                </div>
+                <div class="services-div">
+                    <label for="services">Services:</label>
+                    <select id="services">
+                        <option  hidden disabled selected>
+                            Select
+                        </option>
+                        <option value="1">
+                            full board and treatment / 200
+                        </option>
+                        <option value="2">
+                            full board without treatment / 150
                         </option>
                         <option value="3">
-                            custom
+                            half board and treatment / 100
+                        </option>
+                        <option value="4">
+                            half board without treatment / 50
                         </option>
                     </select>
-                </form>
+                </div>
+                <button class="form-submit" type="submit">
+                    Calculate
+                </button>
+            </form>
+            <div class="total-result">
+                <span>
+                    Total: 
+                </span>
+                <h2 class="result">
+                    0
+                </h2>
+                <span class="azn">AZN</span>
             </div>
         </section>
     </main>
 </body>
 </html>
+
+
+<script src="./assets/main.js"></script>

@@ -1,0 +1,69 @@
+main .main-section form {
+  width: 500px;
+  border: 1px solid #ccc;
+  padding: 15px; }
+  main .main-section form label {
+    display: block;
+    margin: 15px 0 5px 0;
+    font-size: 18px;
+    font-weight: 500; }
+  main .main-section form #checkin,
+  main .main-section form #checkout,
+  main .main-section form #custom-room,
+  main .main-section form #custom-adult {
+    width: 215px; }
+  main .main-section form input, main .main-section form select {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #ccc;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 3px; }
+    main .main-section form input option, main .main-section form select option {
+      display: block;
+      padding: 10px; }
+  main .main-section form .check-div {
+    display: flex;
+    justify-content: space-between; }
+  main .main-section form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px; }
+  main .main-section form .custom-select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #eee; }
+  main .main-section form .custom-select-wrapper {
+    display: flex;
+    justify-content: space-between; }
+  main .main-section form #custom-child,
+  main .main-section form #custom-child-age {
+    width: calc(100% - 20px); }
+  main .main-section form .hide {
+    display: none; }
+  main .main-section form .show {
+    display: block; }
+
+main .main-section .total-result {
+  width: 502px;
+  height: 100%;
+  background-color: #ddd;
+  padding: 15px;
+  display: flex; }
+  main .main-section .total-result span {
+    font-size: 22px;
+    color: black;
+    font-weight: 700; }
+  main .main-section .total-result h2 {
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 3px;
+    font-size: 22px; }
