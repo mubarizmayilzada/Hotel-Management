@@ -58,7 +58,8 @@ main .about-us {
         width: 260px;
         height: 200px; }
   main .about-us .contain-about-us-2 {
-    margin-top: 150px; }
+    margin-top: 100px;
+    padding-bottom: 100px; }
     main .about-us .contain-about-us-2 .row-custom {
       display: flex;
       align-items: center; }
@@ -92,7 +93,7 @@ main .about-us {
       display: flex;
       justify-content: space-around; }
       main .about-us .about-us-features ul li {
-        padding: 35px;
+        padding: 35px 50px;
         background-color: white;
         box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.226);
         text-align: center;
@@ -104,75 +105,171 @@ main .about-us {
         main .about-us .about-us-features ul li span {
           color: #c19b76; }
 
-main .main-section form {
-  width: 500px;
-  border: 1px solid #ccc;
-  padding: 15px; }
-  main .main-section form label {
-    display: block;
-    margin: 15px 0 5px 0;
-    font-size: 18px;
-    font-weight: 500; }
-  main .main-section form #checkin,
-  main .main-section form #checkout,
-  main .main-section form #custom-room,
-  main .main-section form #custom-adult {
-    width: 215px; }
-  main .main-section form input, main .main-section form select {
+main .advantages {
+  margin-bottom: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url(../uploads/images/section-bg-5.jpg); }
+  main .advantages .advantages-overlay {
+    padding: 80px;
     width: 100%;
-    padding: 10px 10px;
-    background-color: #ccc;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    border-radius: 3px; }
-    main .main-section form input option, main .main-section form select option {
-      display: block;
-      padding: 10px; }
-  main .main-section form .check-div {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); }
+  main .advantages span {
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    color: #c19b76; }
+  main .advantages h2 {
+    font-size: 55px;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    color: white;
+    margin-bottom: 50px; }
+  main .advantages ul {
     display: flex;
-    justify-content: space-between; }
-  main .main-section form button {
-    width: 100%;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #ccc;
-    border: none;
-    outline: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 16px; }
-  main .main-section form .custom-select {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 15px 0;
-    background-color: #eee; }
-  main .main-section form .custom-select-wrapper {
-    display: flex;
-    justify-content: space-between; }
-  main .main-section form #custom-child,
-  main .main-section form #custom-child-age {
-    width: calc(100% - 20px); }
-  main .main-section form .hide {
-    display: none; }
-  main .main-section form .show {
-    display: block; }
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+    main .advantages ul li {
+      text-align: left;
+      width: 430px;
+      display: flex;
+      padding: 30px 15px 0px 15px; }
+      main .advantages ul li .icon {
+        padding-right: 20px;
+        font-size: 37px;
+        color: #c19b76; }
+      main .advantages ul li .content-advantages h3 {
+        padding-top: 5px;
+        color: white;
+        font-family: "Playfair Display"; }
+      main .advantages ul li .content-advantages p {
+        color: #ccc; }
 
-main .main-section .total-result {
-  width: 502px;
-  height: 100%;
-  background-color: #ddd;
-  padding: 15px;
-  display: flex; }
-  main .main-section .total-result span {
-    font-size: 22px;
-    color: black;
-    font-weight: 700; }
-  main .main-section .total-result h2 {
-    margin: 0px;
-    margin-left: 10px;
-    margin-right: 3px;
-    font-size: 22px; }
+main .about-us-features {
+  margin: 100px 0; }
+  main .about-us-features ul {
+    display: flex;
+    justify-content: space-evenly; }
+    main .about-us-features ul li {
+      padding: 35px 100px;
+      background-color: white;
+      box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.226);
+      text-align: center;
+      border-radius: 11px; }
+      main .about-us-features ul li .icon {
+        text-align: center;
+        color: #c19b76; }
+        main .about-us-features ul li .icon h2 {
+          font-size: 40px;
+          font-family: "Playfair Display"; }
+      main .about-us-features ul li span {
+        color: #c19b76; }
+
+.order-reservation {
+  display: flex;
+  margin: 50px 0; }
+
+.main-section {
+  color: black; }
+  .main-section form {
+    width: 500px;
+    border: 1px solid #c19b76;
+    padding: 15px; }
+    .main-section form label {
+      display: block;
+      margin: 15px 0 5px 0;
+      font-size: 18px;
+      font-weight: 500; }
+    .main-section form #checkin,
+    .main-section form #checkout,
+    .main-section form #custom-room,
+    .main-section form #custom-adult {
+      width: 215px; }
+    .main-section form input, .main-section form select {
+      width: 100%;
+      padding: 10px 10px;
+      background-color: #ccc;
+      font-size: 16px;
+      outline: none;
+      border: none;
+      color: #c19b76;
+      border-radius: 3px; }
+      .main-section form input::placeholder, .main-section form select::placeholder {
+        color: #c19b76; }
+      .main-section form input option, .main-section form select option {
+        display: block;
+        padding: 10px; }
+    .main-section form .check-div {
+      display: flex;
+      justify-content: space-between; }
+    .main-section form button {
+      width: 100%;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #c19b76;
+      border: none;
+      outline: none;
+      border-radius: 3px;
+      cursor: pointer;
+      color: white;
+      font-size: 16px; }
+    .main-section form .custom-select {
+      border: 1px solid #c19b76;
+      padding: 10px;
+      margin: 15px 0;
+      background-color: #eee; }
+    .main-section form .custom-select-wrapper {
+      display: flex;
+      justify-content: space-between; }
+    .main-section form #custom-child,
+    .main-section form #custom-child-age {
+      width: calc(100% - 20px); }
+    .main-section form .hide {
+      display: none; }
+    .main-section form .show {
+      display: block; }
+  .main-section .total-result {
+    width: 500px;
+    background-color: #c19b76;
+    padding: 15px;
+    display: flex; }
+    .main-section .total-result span {
+      font-size: 22px;
+      color: white;
+      font-weight: 700; }
+    .main-section .total-result h2 {
+      color: white;
+      margin: 0px;
+      margin-top: 3px;
+      margin-left: 10px;
+      margin-right: 3px;
+      font-size: 22px; }
+
+.image-book {
+  position: relative; }
+  .image-book img {
+    height: 100%;
+    width: 100%; }
+  .image-book h2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    font-family: "Playfair Display"; }
+  .image-book div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    position: absolute;
+    top: 0; }
 
 nav {
   position: sticky;
@@ -260,3 +357,23 @@ nav {
           font-size: 19px;
           font-weight: 500;
           color: black; }
+
+footer {
+  padding: 50px 100px;
+  background-color: #1c1c1c; }
+  footer ul {
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc; }
+    footer ul li {
+      width: 250px; }
+      footer ul li span {
+        color: white;
+        font-size: 16px;
+        font-weight: 500; }
+      footer ul li p {
+        display: inline-block;
+        color: #ccc;
+        font-size: 14px; }

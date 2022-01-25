@@ -49,7 +49,9 @@ main{
             }
         }
         .contain-about-us-2{
-            margin-top: 150px;
+            margin-top: 100px;
+            padding-bottom: 100px;
+
             .row-custom{
                 display: flex;
                 align-items: center;
@@ -95,7 +97,7 @@ main{
                 display: flex;
                 justify-content: space-around;
                 li{
-                    padding: 35px;
+                    padding: 35px 50px;
                     background-color: white;
                     box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.226);
                     text-align: center;
@@ -114,91 +116,94 @@ main{
     }
 
 
-
-    .main-section{
-        form{
-            width: 500px;
-            border: 1px solid #ccc;
-            padding: 15px;
-            label{
-                display: block;
-                margin: 15px 0 5px 0;
-                font-size: 18px;
-                font-weight: 500;
-
-            }
-            #checkin,
-            #checkout,
-            #custom-room,
-            #custom-adult{
-                width: 215px;
-            }
-            input,select{
-                width: 100%;
-                padding: 10px 10px;
-                background-color: #ccc;
-                font-size: 16px;
-                outline: none;
-                border: none;
-                border-radius: 3px;
-                option{
-                    display: block;
-                    padding: 10px;
-                }
-            }
-            .check-div{
-                display: flex;
-                justify-content: space-between;
-            }
-            button{
-                width: 100%;
-                margin-top: 20px;
-                padding: 10px;
-                background-color: #ccc;
-                border: none;
-                outline: none;
-                border-radius: 3px;
-                cursor: pointer;
-                font-size: 16px;
-            }
-            .custom-select{
-                border: 1px solid #ccc;
-                padding: 10px;
-                margin: 15px 0;
-                background-color: #eee;
-            }
-            .custom-select-wrapper{
-                display: flex;
-                justify-content: space-between;
-            }
-            #custom-child,
-            #custom-child-age{
-                width: calc(100% - 20px);
-            }
-            .hide{
-                display: none;
-            }
-            .show{
-                display: block;
-            }
-        }
-        .total-result{
-            width: 502px;
+    .advantages{
+        margin-bottom: 100px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-image: url(../uploads/images/section-bg-5.jpg);
+        .advantages-overlay{
+            padding: 80px;
+            width: 100%;
             height: 100%;
-            background-color: #ddd;
-            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        span{
+            font-size: 21px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: white;
+            margin-top: 70px;
+            margin-bottom: 15px;
+            color: $main-color;
+        }
+        h2{
+            font-size: 55px;
+            font-family: $sub-font;
+            font-weight: 500;
+            color: white;
+            margin-bottom: 50px;
+        }
+        ul{
             display: flex;
-            span{
-                font-size:22px;
-                color: black;
-                font-weight: 700;
-            }
-            h2{
-                margin: 0px;
-                margin-left: 10px;
-                margin-right: 3px;
-                font-size: 22px;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            li{
+                text-align: left;
+                width: 430px;
+                display: flex;
+                padding: 30px 15px 0px 15px;
+                .icon{
+                    padding-right: 20px;
+                    font-size: 37px;
+                    color: $main-color;
+                }
+                .content-advantages{
+                    h3{
+                        padding-top: 5px;
+                        color: white;
+                        font-family: $sub-font;
+                    }
+                    p{
+                        color: #ccc;
+                    }
+                }
             }
         }
     }
+
+
+
+
+    .about-us-features{
+        margin: 100px 0;
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            li{
+                padding: 35px 100px;
+                background-color: white;
+                box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.226);
+                text-align: center;
+                border-radius: 11px;
+                .icon{
+                    text-align: center;
+                    color: $main-color;
+                    h2{
+                        font-size: 40px;
+                        font-family: $sub-font;
+                    }
+                }
+                span{
+                    color: $main-color;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
 }

@@ -1,0 +1,25 @@
+footer{
+    padding: 50px 100px;
+    background-color: #1c1c1c;
+    ul{
+        margin: 0 200px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #ccc;
+        li{
+            width: 250px;
+            span{
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            p{
+                display: inline-block;
+                color: #ccc;
+                font-size: 14px;
+            }
+        }
+        
+    }
+}
