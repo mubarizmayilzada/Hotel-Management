@@ -89,6 +89,28 @@ main{
                 
             }
         }
+        .about-us-features{
+            margin-top: 100px;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li{
+                    padding: 35px;
+                    background-color: white;
+                    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.226);
+                    text-align: center;
+                    border-radius: 11px;
+                    .icon{
+                        text-align: center;
+                        font-size: 40px;
+                        color: $main-color;
+                    }
+                    span{
+                        color: $main-color;
+                    }
+                }
+            }
+        }
     }
 
 
