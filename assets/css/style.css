@@ -1,3 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+main .about-us {
+  margin-top: 15px;
+  background-color: #ECFAFB;
+  width: 100%; }
+  main .about-us .contain-about-us-1 {
+    margin: 0px 100px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    main .about-us .contain-about-us-1 .content-about-us {
+      margin-right: 30px;
+      width: 50%; }
+      main .about-us .contain-about-us-1 .content-about-us span {
+        font-size: 20px;
+        font-weight: 600;
+        color: #c19b76; }
+      main .about-us .contain-about-us-1 .content-about-us h2 {
+        color: black;
+        font-size: 45px;
+        font-weight: 500;
+        margin-bottom: 30px; }
+      main .about-us .contain-about-us-1 .content-about-us p {
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 1.5px; }
+    main .about-us .contain-about-us-1 .images-about-us {
+      margin-left: 30px;
+      width: 50%;
+      display: flex; }
+      main .about-us .contain-about-us-1 .images-about-us img {
+        border-radius: 10px;
+        margin: 10px;
+        height: 420px;
+        width: 260px; }
+      main .about-us .contain-about-us-1 .images-about-us .img-left img {
+        border-radius: 10px;
+        width: 260px;
+        height: 200px; }
+  main .about-us .contain-about-us-2 {
+    margin-top: 150px; }
+    main .about-us .contain-about-us-2 .row-custom {
+      display: flex;
+      align-items: center; }
+      main .about-us .contain-about-us-2 .row-custom .img-div-about-us {
+        width: 50%; }
+        main .about-us .contain-about-us-2 .row-custom .img-div-about-us img {
+          width: 100%; }
+      main .about-us .contain-about-us-2 .row-custom .content-about-us {
+        padding-right: 50px;
+        width: 50%; }
+        main .about-us .contain-about-us-2 .row-custom .content-about-us:last-child {
+          text-align: right;
+          padding-left: 50px;
+          padding-right: 0px; }
+        main .about-us .contain-about-us-2 .row-custom .content-about-us span {
+          font-size: 20px;
+          font-weight: 600;
+          color: #c19b76; }
+        main .about-us .contain-about-us-2 .row-custom .content-about-us h2 {
+          color: black;
+          font-size: 45px;
+          font-weight: 500;
+          margin-bottom: 30px; }
+        main .about-us .contain-about-us-2 .row-custom .content-about-us p {
+          font-size: 22px;
+          font-weight: 400;
+          letter-spacing: 1.5px; }
+
 main .main-section form {
   width: 500px;
   border: 1px solid #ccc;
@@ -67,3 +152,90 @@ main .main-section .total-result {
     margin-left: 10px;
     margin-right: 3px;
     font-size: 22px; }
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+  background-color: #1c1c1c;
+  padding: 10px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  nav .logo span {
+    font-size: 22px;
+    font-weight: 700;
+    color: white; }
+  nav .pages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #c19b76; }
+    nav .pages a {
+      color: white;
+      font-size: 18px; }
+      nav .pages a:not(:last-child) {
+        margin-right: 30px; }
+    nav .pages .booknow {
+      padding: 9px 20px;
+      color: white;
+      background-color: #c19b76;
+      border: 2px solid #c19b76;
+      border-radius: 3px;
+      transition: all .4s ease; }
+      nav .pages .booknow:hover {
+        background-color: #ECFAFB;
+        color: #c19b76;
+        border: 2px solid #c19b76; }
+
+.header-main {
+  text-align: center;
+  position: relative;
+  height: 75vh;
+  width: 100%;
+  background-image: url(../uploads/images/slide-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header-main .content {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.416); }
+    .header-main .content .content-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .header-main .content .content-overlay p {
+        font-size: 25px;
+        font-weight: 400; }
+      .header-main .content .content-overlay h2 {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "Playfair Display"; }
+  .header-main .features-cards {
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 75%;
+    padding: 10px;
+    border-radius: 11px;
+    display: flex; }
+    .header-main .features-cards .features-card {
+      padding: 35px 60px;
+      background-color: #ECFAFB;
+      border-radius: 11px; }
+      .header-main .features-cards .features-card .content-features-card {
+        text-align: center; }
+        .header-main .features-cards .features-card .content-features-card .icon {
+          font-size: 35px;
+          color: #c19b76; }
+        .header-main .features-cards .features-card .content-features-card span {
+          font-size: 19px;
+          font-weight: 500;
+          color: black; }
