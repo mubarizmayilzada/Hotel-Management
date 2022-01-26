@@ -127,6 +127,30 @@ nav{
             }
         }
     }
+
+    nav{
+        .logo{
+            span{
+                a{
+                    font-size: 15px !important;
+                }
+            }
+        }
+
+        .pages{
+            a{
+                font-size: 14px !important;
+                white-space: nowrap;
+                &:not(:last-child){
+                    margin-right: 10px !important;
+                }
+            }
+            .booknow{
+                padding: 5px !important;
+                font-size: 13px !important;
+            }
+        }
+    }
 }
 
 
@@ -161,4 +185,28 @@ nav{
         }
     }
     
+
+    nav{
+        .logo{
+            span{
+                a{
+                    font-size: 15px !important;
+                }
+            }
+        }
+
+        .pages{
+            a{
+                font-size: 11px !important;
+                white-space: nowrap;
+                &:not(:last-child){
+                    margin-right: 8px !important;
+                }
+            }
+            .booknow{
+                padding: 4px !important;
+                font-size: 11px !important;
+            }
+        }
+    }
 }

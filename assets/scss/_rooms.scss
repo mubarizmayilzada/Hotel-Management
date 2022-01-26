@@ -1,0 +1,159 @@
+main{
+    .room{
+        width: 100%;
+        background-color: $main-color;
+        text-align: center;
+        padding: 70px;
+        h1{
+            font-weight: 600;
+            font-size: 30px;
+            color: white;
+        }
+    }
+    section{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        background-color: $main-color-bg;
+        .filter-dots{
+            width: 40%;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            li{
+                a{
+                    cursor: pointer;
+                    font-weight: 300;
+                    font-size: 15px;
+                    padding: 10px 15px;
+                    border-radius: 15px;
+                    background-color: white;
+                    &:hover{
+                        background-color: $main-color;
+                        color: white;
+                    }
+                    &:focus{
+                        background-color: $main-color;
+                        color: white;   
+                    }
+                }
+            }
+        }
+    }
+
+    .room-cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .room-card{
+            margin: 20px 0;
+            width: 390px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 13px;
+
+            .img-box{
+                img{
+                    border-radius: 13px;
+                    width: 100%;
+                }
+            }
+            .guest-count{
+                span{
+                    display: inline-block;
+                    margin: 25px 0px;
+                    margin-left: 15px;
+                    background-color: $main-color-bg;
+                    border-radius: 13px;
+                    padding: 7px;
+                    i{
+                        font-size: 13px;
+                    }
+                    font-size: 13px;
+                }
+            }
+            .room-content{
+                padding: 15px;
+                padding-top: 0px;
+
+                h2{
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 14px;
+                    color: #888888;
+                }
+                .price-booking{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 30px;
+                    .price-hour{
+                        color: $main-color;
+                        h3{
+                            display: inline-block;
+                            font-size: 18px;
+                            color: black;
+                        }
+                        span{
+                            color: black;
+
+                        }
+                    }
+                    a{
+                        cursor: pointer;
+                        padding: 8px 10px;
+                        border-radius: 13px;
+                        background-color: $main-color;
+                        color: white;
+                        font-size: 15px;
+                        i{
+                            margin-right: 7px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media screen and (max-width:769px){
+    .filter-dots{
+
+        width: 100% !important;
+        text-align: center;
+        display: block !important;
+        li{
+            width: 100% !important;
+            margin: 30px 0px;
+            a{
+                white-space: nowrap;
+                padding-right: 100px !important;
+                padding-left: 100px !important;
+            }
+        }
+    }
+
+    .room-cards{
+        .room-card{
+            width: 100% !important;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 376px){
+    .room{
+        h1{
+            font-size: 20px !important;
+        }
+    }
+}
