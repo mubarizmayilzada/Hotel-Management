@@ -873,3 +873,269 @@ main .room-cards {
 @media screen and (max-width: 376px) {
   .room h1 {
     font-size: 20px !important; } }
+
+main {
+  background-color: #ECFAFB; }
+  main .overview-contact {
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 100px; }
+    main .overview-contact .content-overview h2 {
+      margin-top: 10px;
+      font-size: 40px;
+      font-family: "Playfair Display";
+      margin-bottom: 50px; }
+    main .overview-contact .content-overview h3 {
+      font-weight: 600;
+      font-size: 25px;
+      margin-bottom: 30px; }
+    main .overview-contact .content-overview p {
+      font-size: 16px;
+      color: #888888; }
+  main .contact-hotel {
+    margin-bottom: 100px; }
+    main .contact-hotel span {
+      display: inline-block; }
+    main .contact-hotel .contact-us__header {
+      text-align: center; }
+      main .contact-hotel .contact-us__header h2 {
+        font-size: 42px;
+        line-height: 35px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px; }
+      main .contact-hotel .contact-us__header #contact-description {
+        font-size: 15px;
+        line-height: 27px;
+        color: gray;
+        margin-bottom: 50px; }
+      main .contact-hotel .contact-us__header .contact-details {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 70px; }
+        main .contact-hotel .contact-us__header .contact-details .contact-detail .icon {
+          padding: 0 15px;
+          margin-bottom: 25px;
+          display: block; }
+          main .contact-hotel .contact-us__header .contact-details .contact-detail .icon i {
+            font-size: 45px;
+            color: #c19b76; }
+        main .contact-hotel .contact-us__header .contact-details .contact-detail__title {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 32px;
+          color: black;
+          margin-bottom: 10px; }
+        main .contact-hotel .contact-us__header .contact-details .contact-detail p {
+          color: gray;
+          font-size: 16px;
+          line-height: 29px; }
+    main .contact-hotel .contact-us__body {
+      display: flex;
+      border: 1px solid #c19b76;
+      border-radius: 8px; }
+      main .contact-hotel .contact-us__body__map {
+        width: 50%; }
+      main .contact-hotel .contact-us__body__form {
+        width: 50%;
+        padding: 50px 80px; }
+        main .contact-hotel .contact-us__body__form #contact-form-title {
+          font-size: 42px;
+          line-height: 35px;
+          font-weight: 700;
+          color: black;
+          margin-bottom: 20px; }
+        main .contact-hotel .contact-us__body__form #contact-form-description {
+          font-size: 15px;
+          line-height: 27px;
+          color: #c19b76;
+          margin-bottom: 50px; }
+        main .contact-hotel .contact-us__body__form #form button {
+          border: none;
+          outline: none;
+          padding: 10px 30px;
+          background-color: #c19b76;
+          color: white;
+          border-radius: 10px; }
+        main .contact-hotel .contact-us__body__form #form .form-control {
+          width: 100% !important;
+          border: none;
+          padding: 0;
+          margin: 0;
+          background-color: #ECFAFB;
+          margin-bottom: 15px; }
+          main .contact-hotel .contact-us__body__form #form .form-control small {
+            background-color: #ECFAFB;
+            color: #e74c3c;
+            font-size: 11px;
+            margin-top: 5px;
+            margin-left: 10px;
+            display: none; }
+        main .contact-hotel .contact-us__body__form #form .form-control.error input {
+          border: 1px solid red; }
+        main .contact-hotel .contact-us__body__form #form .form-control.error small {
+          display: block !important; }
+        main .contact-hotel .contact-us__body__form #form .form-control.success input {
+          border: 1px solid green;
+          background: transparent !important; }
+        main .contact-hotel .contact-us__body__form #form .form-control.success small {
+          display: none !important; }
+        main .contact-hotel .contact-us__body__form #form label {
+          display: block;
+          margin: 0px;
+          padding: 0px; }
+        main .contact-hotel .contact-us__body__form #form input, main .contact-hotel .contact-us__body__form #form textarea {
+          width: 100% !important;
+          background: transparent;
+          display: block;
+          padding: 10px;
+          border: 1px solid #e1e1e1;
+          border-radius: 8px;
+          outline: none;
+          width: 460px;
+          resize: none;
+          font-size: 15px;
+          color: #c19b76; }
+          main .contact-hotel .contact-us__body__form #form input::placeholder, main .contact-hotel .contact-us__body__form #form textarea::placeholder {
+            font-size: 14px;
+            color: #c19b76; }
+
+@media screen and (max-width: 1200px) {
+  .contact-hotel .contact-us__body__map {
+    width: 30%; }
+  .contact-hotel .contact-us__body__form {
+    width: 70%; }
+    .contact-hotel .contact-us__body__form #name {
+      width: 100% !important; }
+      .contact-hotel .contact-us__body__form #name input,
+      .contact-hotel .contact-us__body__form #name textarea {
+        width: 100% !important; }
+  main .overview-contact {
+    display: block !important; }
+    main .overview-contact .img-overview img {
+      width: 100% !important;
+      margin-top: 30px; } }
+
+@media screen and (max-width: 1200px) and (max-width: 991.5px) {
+  .contact-hotel .contact-us__body {
+    border: none; }
+    .contact-hotel .contact-us__body__map {
+      display: none; }
+    .contact-hotel .contact-us__body__form {
+      width: 100% !important; } }
+
+@media screen and (max-width: 1200px) and (max-width: 500px) {
+  .contact-us__header {
+    text-align: center; }
+    .contact-us__header h2 {
+      font-size: 42px;
+      line-height: 35px;
+      font-weight: 700;
+      color: black;
+      margin-bottom: 20px; }
+    .contact-us__header #contact-description {
+      font-size: 15px;
+      line-height: 27px;
+      color: gray;
+      margin-bottom: 50px; }
+    .contact-us__header .contact-details {
+      width: 100%;
+      display: block !important;
+      justify-content: space-around;
+      margin-bottom: 70px; }
+      .contact-us__header .contact-details .contact-detail .icon {
+        padding: 0 15px;
+        margin-bottom: 25px;
+        display: block; }
+        .contact-us__header .contact-details .contact-detail .icon i {
+          font-size: 45px;
+          color: #c19b76; }
+      .contact-us__header .contact-details .contact-detail__title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        color: black;
+        margin-bottom: 10px; }
+      .contact-us__header .contact-details .contact-detail p {
+        color: gray;
+        font-size: 16px;
+        line-height: 29px; }
+  .contact-us__body {
+    display: flex;
+    border: 1px solid #c19b76;
+    border-radius: 8px; }
+    .contact-us__body__map {
+      width: 50%; }
+    .contact-us__body__form {
+      width: 50%;
+      padding: 50px 80px; }
+      .contact-us__body__form #contact-form-title {
+        font-size: 42px;
+        line-height: 35px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 20px; }
+      .contact-us__body__form #contact-form-description {
+        font-size: 15px;
+        line-height: 27px;
+        color: #c19b76;
+        margin-bottom: 50px; }
+      .contact-us__body__form #form button {
+        border: none;
+        outline: none;
+        padding: 10px 30px;
+        background-color: #c19b76;
+        color: white;
+        border-radius: 10px; }
+      .contact-us__body__form #form .form-control {
+        width: 100% !important;
+        border: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 15px; }
+        .contact-us__body__form #form .form-control small {
+          color: #e74c3c;
+          font-size: 11px;
+          margin-top: 5px;
+          margin-left: 10px;
+          display: none; }
+      .contact-us__body__form #form .form-control.error input {
+        border: 1px solid red; }
+      .contact-us__body__form #form .form-control.error small {
+        display: block !important; }
+      .contact-us__body__form #form .form-control.success input {
+        border: 1px solid green;
+        background: transparent !important; }
+      .contact-us__body__form #form .form-control.success small {
+        display: none !important; }
+      .contact-us__body__form #form label {
+        display: block;
+        margin: 0px;
+        padding: 0px; }
+      .contact-us__body__form #form input, .contact-us__body__form #form textarea {
+        width: 100% !important;
+        background: transparent;
+        display: block;
+        padding: 10px;
+        border: 1px solid #e1e1e1;
+        border-radius: 8px;
+        outline: none;
+        width: 460px;
+        resize: none;
+        font-size: 15px;
+        color: #c19b76; }
+        .contact-us__body__form #form input::placeholder, .contact-us__body__form #form textarea::placeholder {
+          font-size: 14px;
+          color: #c19b76; }
+  .contact-hotel .contact-us__body {
+    border: none !important; }
+    .contact-hotel .contact-us__body__map {
+      display: none; }
+    .contact-hotel .contact-us__body__form {
+      width: 100%;
+      padding: 0px !important; }
+      .contact-hotel .contact-us__body__form #form input {
+        width: 300px; }
+      .contact-hotel .contact-us__body__form #form textarea {
+        width: 300px; } }

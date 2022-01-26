@@ -1,0 +1,397 @@
+main{
+    background-color: $main-color-bg;
+    .overview-contact{
+        display: flex;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        .content-overview{
+            h2{
+                margin-top: 10px;
+                font-size: 40px;
+                font-family: $sub-font;
+                margin-bottom: 50px;
+            }
+            h3{
+                font-weight: 600;
+                font-size: 25px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 16px;
+                color: #888888;
+            }
+        }
+    }
+
+
+    .contact-hotel{
+        margin-bottom: 100px;
+        span{
+            display: inline-block;
+        }
+        .contact-us{
+            &__header{
+                text-align: center;
+                h2{
+                    font-size: 42px;
+                    line-height: 35px;
+                    font-weight: 700;
+                    color: black;
+                    margin-bottom: 20px;
+                }
+                #contact-description{
+                    font-size: 15px;
+                    line-height: 27px;
+                    color: rgb(128, 128, 128);
+                    margin-bottom: 50px;
+                }
+                .contact-details{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    margin-bottom: 70px;
+                    .contact-detail{
+                        .icon{
+                            padding: 0 15px;
+                            margin-bottom: 25px;
+                            display: block;
+                            i{
+                                font-size: 45px;
+                                color: $main-color;
+                            }
+                        }
+                        &__title{
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 32px;
+                            color: black;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            color: rgb(128, 128, 128);
+                            font-size: 16px;
+                            line-height: 29px;
+                        }
+                    }
+                }
+            }
+    
+            &__body{
+                display: flex;
+                border: 1px solid $main-color;
+                border-radius: 8px;
+                &__map{
+                    width: 50%;
+                }
+                &__form{
+                    width: 50%;
+                    padding: 50px 80px;
+                    #contact-form-title{
+                        font-size: 42px;
+                        line-height: 35px;
+                        font-weight: 700;
+                        color: black;
+                        margin-bottom: 20px;
+                    }
+                    #contact-form-description{
+                        font-size: 15px;
+                        line-height: 27px;
+                        color: $main-color;
+                        margin-bottom: 50px;
+                    }
+    
+                    #form{
+                        button{
+                            border: none;
+                            outline: none;
+                            padding: 10px 30px;
+                            background-color: $main-color;
+                            color: white;
+                            border-radius: 10px;
+                        }
+                        .form-control{
+                            width: 100% !important;
+                            border: none;
+                            padding: 0;
+                            margin: 0;
+                            background-color: $main-color-bg;
+                            margin-bottom: 15px;
+                            small{
+                                background-color: $main-color-bg;
+                                color: #e74c3c;
+                                font-size: 11px;
+                                margin-top: 5px;
+                                margin-left: 10px;
+                                display: none;
+                            }
+    
+                        }
+                        .form-control.error{
+                            input{
+                            border: 1px solid red;
+                            }
+                            small{
+                                display: block !important;
+                            }
+                        }
+                        .form-control.success{
+                            input{
+                                border: 1px solid green;
+                                background: transparent !important;
+                            }
+                            small{
+                                display: none !important;
+                            }
+                        }
+    
+                        label{
+                            display: block;
+                            margin: 0px;
+                            padding: 0px;
+                        }
+                        input,textarea{
+                            width: 100% !important;
+                            background: transparent;
+                            display: block;
+                            padding: 10px;
+                            border: 1px solid rgb(225, 225, 225);
+                            border-radius: 8px;
+                            outline: none;
+                            // margin-bottom: 15px;
+                            width: 460px;
+                            resize: none;
+                            font-size: 15px;
+                            color: $main-color;
+                            &::placeholder{
+                                font-size: 14px;
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and(max-width:1200px) {
+    .contact-hotel{
+        .contact-us{
+            &__body{
+                &__map{
+                    width: 30%;
+                }
+                &__form{
+                    width: 70%;
+                    #name{
+                        width: 100% !important;
+                        input,
+                        textarea{
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    main{
+        .overview-contact{
+            display: block !important;
+            .img-overview{
+                img{
+                    width: 100% !important;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+
+}
+@media screen and(max-width:991.5px) {
+    .contact-hotel{
+        .contact-us{
+            &__body{
+                border: none;
+                &__map{
+                    display: none;
+                }
+                &__form{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width:500px){
+ 
+    .contact-us{
+        &__header{
+            text-align: center;
+            h2{
+                font-size: 42px;
+                line-height: 35px;
+                font-weight: 700;
+                color: black;
+                margin-bottom: 20px;
+            }
+            #contact-description{
+                font-size: 15px;
+                line-height: 27px;
+                color: rgb(128, 128, 128);
+                margin-bottom: 50px;
+            }
+            .contact-details{
+                width: 100%;
+                display: block !important;
+                justify-content: space-around;
+                margin-bottom: 70px;
+                .contact-detail{
+                    .icon{
+                        padding: 0 15px;
+                        margin-bottom: 25px;
+                        display: block;
+                        i{
+                            font-size: 45px;
+                            color: $main-color;
+                        }
+                    }
+                    &__title{
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 32px;
+                        color: black;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        color: rgb(128, 128, 128);
+                        font-size: 16px;
+                        line-height: 29px;
+                    }
+                }
+            }
+        }
+
+        &__body{
+            display: flex;
+            border: 1px solid $main-color;
+            border-radius: 8px;
+            &__map{
+                width: 50%;
+            }
+            &__form{
+                width: 50%;
+                padding: 50px 80px;
+                #contact-form-title{
+                    font-size: 42px;
+                    line-height: 35px;
+                    font-weight: 700;
+                    color: black;
+                    margin-bottom: 20px;
+                }
+                #contact-form-description{
+                    font-size: 15px;
+                    line-height: 27px;
+                    color: $main-color;
+                    margin-bottom: 50px;
+                }
+
+                #form{
+                    button{
+                        border: none;
+                        outline: none;
+                        padding: 10px 30px;
+                        background-color: $main-color;
+                        color: white;
+                        border-radius: 10px;
+                    }
+                    .form-control{
+                        width: 100% !important;
+                        border: none;
+                        padding: 0;
+                        margin: 0;
+                        margin-bottom: 15px;
+                        small{
+                            color: #e74c3c;
+                            font-size: 11px;
+                            margin-top: 5px;
+                            margin-left: 10px;
+                            display: none;
+                        }
+
+                    }
+                    .form-control.error{
+                        input{
+                        border: 1px solid red;
+                        }
+                        small{
+                            display: block !important;
+                        }
+                    }
+                    .form-control.success{
+                        input{
+                            border: 1px solid green;
+                            background: transparent !important;
+                        }
+                        small{
+                            display: none !important;
+                        }
+                    }
+
+                    label{
+                        display: block;
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                    input,textarea{
+                        width: 100% !important;
+                        background: transparent;
+                        display: block;
+                        padding: 10px;
+                        border: 1px solid rgb(225, 225, 225);
+                        border-radius: 8px;
+                        outline: none;
+                        // margin-bottom: 15px;
+                        width: 460px;
+                        resize: none;
+                        font-size: 15px;
+                        color: $main-color;
+                        &::placeholder{
+                            font-size: 14px;
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+ 
+ 
+    .contact-hotel{
+        .contact-us{
+            &__body{
+                border: none !important;
+                &__map{
+                    display: none;
+                }
+                &__form{
+                    width: 100%;
+                    padding: 0px !important;
+                    #form{
+                        input{
+                            width: 300px;
+                        }
+                        textarea{
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
