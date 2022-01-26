@@ -170,6 +170,294 @@ main .about-us-features {
       main .about-us-features ul li span {
         color: #c19b76; }
 
+@media screen and (max-width: 1025px) {
+  .contain-about-us-1 {
+    display: block !important; }
+    .contain-about-us-1 .content-about-us {
+      width: 100% !important; }
+    .contain-about-us-1 .images-about-us {
+      margin-left: 0 !important;
+      width: 100% !important; }
+      .contain-about-us-1 .images-about-us img {
+        width: 100% !important; }
+      .contain-about-us-1 .images-about-us .img-left img {
+        width: 350px !important; }
+  .about-us-features ul li {
+    padding: 35px 20px !important; }
+    .about-us-features ul li .icon {
+      font-size: 35px !important; }
+  .contain-about-us-2 .row-custom {
+    display: flex;
+    align-items: center; }
+    .contain-about-us-2 .row-custom .img-div-about-us {
+      width: 50%; }
+      .contain-about-us-2 .row-custom .img-div-about-us img {
+        width: 100%; }
+    .contain-about-us-2 .row-custom .content-about-us {
+      padding-right: 0px !important;
+      width: 50%; }
+      .contain-about-us-2 .row-custom .content-about-us:last-child {
+        padding-left: 0px !important; }
+      .contain-about-us-2 .row-custom .content-about-us span {
+        font-size: 18px;
+        font-weight: 600;
+        color: #c19b76; }
+      .contain-about-us-2 .row-custom .content-about-us h2 {
+        color: black;
+        font-size: 35px !important; }
+      .contain-about-us-2 .row-custom .content-about-us p {
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 1.5px; } }
+
+@media screen and (max-width: 769px) {
+  .contain-about-us-1 {
+    margin: 0px !important; }
+    .contain-about-us-1 .content-about-us {
+      margin-right: 0px !important; }
+      .contain-about-us-1 .content-about-us span {
+        font-size: 17px !important; }
+      .contain-about-us-1 .content-about-us h2 {
+        font-size: 25px !important; }
+      .contain-about-us-1 .content-about-us p {
+        font-size: 18px !important; }
+  .about-us-features ul li {
+    padding: 35px 10px !important; }
+    .about-us-features ul li .icon {
+      font-size: 25px !important; }
+    .about-us-features ul li span {
+      color: #c19b76; }
+  .contain-about-us-2 .row-custom .content-about-us {
+    padding-right: 0px !important;
+    width: 50% !important; }
+    .contain-about-us-2 .row-custom .content-about-us:last-child {
+      padding-left: 0px !important; }
+    .contain-about-us-2 .row-custom .content-about-us h2 {
+      font-weight: 600;
+      margin-bottom: 5px !important;
+      font-size: 20px !important; }
+    .contain-about-us-2 .row-custom .content-about-us p {
+      font-size: 18px !important;
+      font-weight: 400;
+      letter-spacing: 1px !important; }
+  .advantages {
+    margin-bottom: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../uploads/images/section-bg-5.jpg); }
+    .advantages .advantages-overlay {
+      padding: 40px !important;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); }
+    .advantages span {
+      font-size: 21px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: white;
+      margin-top: 70px;
+      margin-bottom: 15px;
+      color: #c19b76; }
+    .advantages h2 {
+      font-size: 55px;
+      font-family: "Playfair Display";
+      font-weight: 500;
+      color: white;
+      margin-bottom: 50px; }
+    .advantages ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+      .advantages ul li {
+        text-align: left;
+        width: 330px !important;
+        display: flex;
+        padding: 30px 15px 0px 15px; }
+        .advantages ul li .icon {
+          padding-right: 20px;
+          font-size: 37px;
+          color: #c19b76; }
+        .advantages ul li .content-advantages h3 {
+          padding-top: 5px;
+          color: white;
+          font-family: "Playfair Display"; }
+        .advantages ul li .content-advantages p {
+          color: #ccc; } }
+
+@media screen and (max-width: 426px) {
+  .contain-about-us-1 {
+    margin: 0px 100px;
+    padding-top: 650px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .contain-about-us-1 .content-about-us {
+      margin-right: 30px;
+      width: 50%; }
+      .contain-about-us-1 .content-about-us span {
+        font-size: 20px;
+        font-weight: 600;
+        color: #c19b76; }
+      .contain-about-us-1 .content-about-us h2 {
+        color: black;
+        font-size: 45px;
+        font-weight: 500;
+        margin-bottom: 30px; }
+      .contain-about-us-1 .content-about-us p {
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 1.5px; }
+    .contain-about-us-1 .images-about-us {
+      margin-left: 30px;
+      width: 50%;
+      display: block !important; }
+      .contain-about-us-1 .images-about-us img {
+        border-radius: 10px;
+        margin: 10px;
+        height: 420px;
+        width: 260px;
+        margin-left: 0px !important;
+        margin-right: 0px !important; }
+      .contain-about-us-1 .images-about-us .img-left img {
+        border-radius: 10px;
+        width: 100% !important;
+        height: 200px;
+        margin-left: 0px !important;
+        margin-right: 0px !important; }
+  .about-us-features ul {
+    display: block !important; }
+    .about-us-features ul li {
+      padding: 35px 50px;
+      background-color: white;
+      box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.226);
+      text-align: center;
+      border-radius: 11px; }
+      .about-us-features ul li .icon {
+        text-align: center;
+        font-size: 40px;
+        color: #c19b76; }
+      .about-us-features ul li span {
+        color: #c19b76; }
+  .contain-about-us-2 {
+    margin-top: 100px;
+    padding-bottom: 100px; }
+    .contain-about-us-2 .row-custom {
+      display: block !important; }
+      .contain-about-us-2 .row-custom .img-div-about-us {
+        width: 100% !important; }
+        .contain-about-us-2 .row-custom .img-div-about-us img {
+          width: 100%; }
+      .contain-about-us-2 .row-custom .content-about-us {
+        padding-right: 0px !important;
+        margin-bottom: 30px;
+        width: 100% !important; }
+        .contain-about-us-2 .row-custom .content-about-us:last-child {
+          margin-top: 30px;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #ccc;
+          text-align: right;
+          padding-left: 0px !important; }
+        .contain-about-us-2 .row-custom .content-about-us span {
+          font-size: 20px;
+          font-weight: 600;
+          color: #c19b76; }
+        .contain-about-us-2 .row-custom .content-about-us h2 {
+          color: black;
+          font-size: 45px;
+          font-weight: 500;
+          margin-bottom: 30px; }
+        .contain-about-us-2 .row-custom .content-about-us p {
+          font-size: 22px;
+          font-weight: 400;
+          letter-spacing: 1.5px; }
+  .advantages {
+    margin-bottom: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: none !important; }
+    .advantages .advantages-overlay {
+      padding: 80px;
+      width: 100%;
+      height: 100%; }
+    .advantages span {
+      font-size: 21px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: white;
+      margin-top: 70px;
+      margin-bottom: 15px;
+      color: #c19b76; }
+    .advantages h2 {
+      font-size: 55px;
+      font-family: "Playfair Display";
+      font-weight: 500;
+      color: white;
+      margin-bottom: 50px; }
+    .advantages ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+      .advantages ul li {
+        text-align: left;
+        width: 430px;
+        display: flex;
+        padding: 30px 15px 0px 15px; }
+        .advantages ul li .icon {
+          padding-right: 20px;
+          font-size: 37px;
+          color: #c19b76; }
+        .advantages ul li .content-advantages h3 {
+          padding-top: 5px;
+          color: white;
+          font-family: "Playfair Display"; }
+        .advantages ul li .content-advantages p {
+          color: #ccc; } }
+
+@media screen and (max-width: 321px) {
+  .advantages {
+    background-image: url(../uploads/images/section-bg-5.jpg); }
+    .advantages .advantages-overlay {
+      padding: 80px;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); }
+    .advantages span {
+      font-size: 18px !important;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: white;
+      margin-top: 70px;
+      margin-bottom: 15px;
+      color: #c19b76; }
+    .advantages h2 {
+      font-size: 40px !important;
+      font-family: "Playfair Display";
+      font-weight: 500;
+      color: white;
+      margin-bottom: 50px; }
+    .advantages ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap; }
+      .advantages ul li {
+        text-align: left;
+        width: 430px;
+        display: flex;
+        padding: 30px 15px 0px 15px; }
+        .advantages ul li .icon {
+          padding-right: 20px;
+          font-size: 37px;
+          color: #c19b76; }
+        .advantages ul li .content-advantages h3 {
+          padding-top: 5px;
+          color: white;
+          font-family: "Playfair Display"; }
+        .advantages ul li .content-advantages p {
+          color: #ccc; } }
+
 .order-reservation {
   display: flex;
   margin: 50px 0; }
@@ -228,7 +516,7 @@ main .about-us-features {
       justify-content: space-between; }
     .main-section form #custom-child,
     .main-section form #custom-child-age {
-      width: calc(100% - 20px); }
+      width: 100%; }
     .main-section form .hide {
       display: none; }
     .main-section form .show {
@@ -271,6 +559,37 @@ main .about-us-features {
     position: absolute;
     top: 0; }
 
+@media screen and (max-width: 769px) {
+  .order-reservation {
+    display: block !important; }
+  .main-section form {
+    width: 100% !important; }
+  .main-section .total-result {
+    width: 100% !important; } }
+
+@media screen and (max-width: 426px) {
+  .main-section form {
+    width: 100% !important; }
+    .main-section form #checkin,
+    .main-section form #checkout,
+    .main-section form #custom-room,
+    .main-section form #custom-adult {
+      width: 100% !important; }
+    .main-section form .check-div {
+      display: block !important; }
+  .main-section .total-result {
+    width: 100% !important; }
+  .main-section .custom-select-wrapper {
+    display: block !important;
+    justify-content: space-between; }
+  .main-section #custom-child,
+  .main-section #custom-child-age {
+    width: 100% !important; } }
+
+@media screen and (max-width: 321px) {
+  .image-book h2 {
+    font-size: 20px !important; } }
+
 nav {
   position: sticky;
   top: 0;
@@ -280,7 +599,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  nav .logo span {
+  nav .logo span a {
     font-size: 22px;
     font-weight: 700;
     color: white; }
@@ -358,6 +677,39 @@ nav {
           font-weight: 500;
           color: black; }
 
+@media screen and (max-width: 769px) {
+  .features-cards .features-card {
+    padding: 35px 30px !important;
+    background-color: #ECFAFB;
+    border-radius: 11px; }
+    .features-cards .features-card .content-features-card {
+      text-align: center; }
+      .features-cards .features-card .content-features-card .icon {
+        font-size: 35px;
+        color: #c19b76; }
+      .features-cards .features-card .content-features-card span {
+        font-size: 19px;
+        font-weight: 500;
+        color: black; } }
+
+@media screen and (max-width: 426px) {
+  .features-cards {
+    position: static !important;
+    transform: initial !important;
+    display: block !important;
+    background-color: white;
+    width: 100% !important;
+    display: block !important;
+    z-index: initial !important; }
+  .header-main {
+    position: static !important; } }
+
+@media screen and (max-width: 321px) {
+  .header-main .content .content-overlay p {
+    font-size: 22px !important; }
+  .header-main .content .content-overlay h2 {
+    font-size: 30px !important; } }
+
 footer {
   padding: 50px 100px;
   background-color: #1c1c1c; }
@@ -377,3 +729,17 @@ footer {
         display: inline-block;
         color: #ccc;
         font-size: 14px; }
+
+@media screen and (max-width: 769px) {
+  footer ul {
+    display: block !important; } }
+
+@media screen and (max-width: 426px) {
+  footer ul {
+    margin: 0px !important; } }
+
+@media screen and (max-width: 321px) {
+  footer {
+    padding: 15px !important; }
+    footer ul {
+      margin: 0px !important; } }

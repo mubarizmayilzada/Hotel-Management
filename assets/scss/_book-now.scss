@@ -69,7 +69,7 @@ margin: 50px 0;
             }
             #custom-child,
             #custom-child-age{
-                width: calc(100% - 20px);
+                width: 100%;
             }
             .hide{
                 display: none;
@@ -123,3 +123,61 @@ div{
     top: 0;
 }
     }
+
+
+
+
+    
+@media screen and(max-width:769px) {
+    .order-reservation{
+        display: block !important;
+    }
+
+    .main-section{
+        form{
+            width: 100% !important;
+        }
+        .total-result{
+            width: 100% !important;
+        }
+    }
+}
+
+    
+@media screen and(max-width: 426px) {
+    .main-section{
+        form{
+            width: 100% !important;
+            #checkin,
+            #checkout,
+            #custom-room,
+            #custom-adult{
+                width: 100% !important;
+            }
+            .check-div{
+                display: block !important;
+            }
+
+        }
+        .total-result{
+            width: 100% !important;
+        }
+        .custom-select-wrapper{
+            display: block !important;
+            justify-content: space-between;
+        }
+        #custom-child,
+        #custom-child-age{
+            width: 100% !important;
+        }
+    }
+}
+
+    
+@media screen and(max-width: 321px) {
+    .image-book{
+        h2{
+            font-size: 20px !important;
+        }
+    }        
+}

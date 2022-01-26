@@ -9,9 +9,11 @@ nav{
     align-items: center;
     .logo{
         span{
-            font-size: 22px;
-            font-weight: 700;
-            color: white;
+            a{
+                font-size: 22px;
+                font-weight: 700;
+                color: white;
+            }
         }
     }
     .pages{
@@ -102,4 +104,61 @@ nav{
             }
         }
     }
+}
+
+
+@media screen and(max-width:769px) {
+    .features-cards{
+        .features-card{
+            padding: 35px 30px !important;
+            background-color: $main-color-bg;
+            border-radius: 11px;
+            .content-features-card{
+                text-align: center;
+                .icon{
+                    font-size: 35px;
+                    color: $main-color;
+                }
+                span{
+                    font-size: 19px;
+                    font-weight: 500;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width: 426px) {
+    .features-cards{
+        position: static !important;
+        transform: initial !important;
+        display: block !important;
+        background-color: white;
+        width: 100% !important;
+        display: block !important;
+        z-index: initial !important;
+    }
+
+    .header-main{
+        position: static !important;
+    }
+}
+
+
+@media screen and(max-width: 321px) {
+    .header-main{
+        .content{
+            .content-overlay{
+                p{
+                    font-size: 22px !important;
+                }
+                h2{
+                    font-size: 30px !important;
+                }
+            }
+        }
+    }
+    
 }

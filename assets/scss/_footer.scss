@@ -23,3 +23,33 @@ footer{
         
     }
 }
+
+
+
+
+@media screen and(max-width:769px) {
+    footer{
+        ul{
+            display: block !important;
+        }
+    }
+}
+
+
+@media screen and(max-width: 426px) {
+    footer{
+        ul{
+            margin: 0px !important;
+        }
+    }
+    
+}
+
+@media screen and(max-width: 321px) {
+    footer{
+        padding: 15px !important;
+        ul{
+            margin: 0px !important;
+        }
+    }
+}
